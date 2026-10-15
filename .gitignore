@@ -1,0 +1,26 @@
+# Environment
+.env
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Logs
+/logs/*
+!/logs/.gitkeep
+
+# Compiled class & java files
+*.class
+*.java
+
+# Temporary / scratch
+docx_text.txt
+docs/manual_temp/
+
+# IDE & Editor
+.vscode/
+.idea/
+
+# OS generated files
+Thumbs.db
+.DS_Store

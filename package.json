@@ -1,0 +1,14 @@
+{
+    "name": "risms",
+    "version": "1.0.0",
+    "description": "RISMS",
+    "main": "index.js",
+    "scripts": {
+        "dev": "tailwindcss -i ./assets/css/input.css -o ./public/assets/css/app.css --watch",
+        "build": "tailwindcss -i ./assets/css/input.css -o ./public/assets/css/app.css --minify"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "tailwindcss": "^3.4.0"
+    }
+}

@@ -1,0 +1,1 @@
+﻿<?php require "vendor/autoload.php"; $d = Dotenv\Dotenv::createImmutable(__DIR__); $d->load(); $pdo = \App\Support\Database::getInstance(); foreach($pdo->query("SELECT COLUMN_TYPE FROM information_schema.COLUMNS WHERE TABLE_NAME='sales' AND COLUMN_NAME='payment_method'") as $r) { echo $r["COLUMN_TYPE"]; }
